@@ -13,7 +13,6 @@ body {
 }
 
 nav {
-
     align-items: top;
     padding: 0%;
     height: 180px;
@@ -36,23 +35,65 @@ nav {
         ul :first-child  {
             display: flex;
             align-items: center;
-            font-size: 1.4rem;
-            color: #999999;
-            
+            font-size: 1.1rem;
+            color: #999999; 
+            padding-left: 10px;
+            padding-right: 10px;          
         }
         
         ul :nth-child(2) {
             background-color: #cccccc;
         padding: 6px 30px;
         color: #777777;
+        font-size: 00.8rem;
         }
+
         ul :nth-child(3) {
- 
+            font-size: 0.8rem;
         padding: 15px 10px;   
         color: #999999; 
         }
-        
-        
+
+        #carousel {
+            display: flex;
+            justify-content: center;
+            color: #777777;
+            font-size: 1rem;
+            margin: 5px 5px;
+            background-color: red;
+        }
+b{
+    color: #666666;
+}
+span {
+    font-size: 0.2rem;
+}
+        h2 {
+            padding: 25px;
+            font-size: 1rem;
+            justify-content: center;
+            text-align: center;
+            color: #999999;
+        }
+    
+
+        .bloc {
+            
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-around;
+            background-color: #cccccc;
+
+        }
+
+        article {
+            height: 200px;
+            max-width: 32%;
+            background-color: red;
+            justify-content: space-around;
+            justify-content: center;
+            flex: (1);
+        }
 
 
 
